@@ -2,10 +2,12 @@
   "id": 1729947617,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-02",
+    "date:cessation_upper": "2021-04-02",
     "date:inception_lower": "2021-04-01",
     "date:inception_upper": "2021-04-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-01",
+    "edtf:cessation": "2021-04-02T04:15:00Z",
+    "edtf:inception": "2021-04-01T23:34:00Z",
     "flysfo:actual_timestamp": 1617318000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-04-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618102,
     "lbl:longitude": -122.38769,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533997,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +56,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "152063197",
+      "swim:gufi": "KO10065600"
+    },
     "wof:country": "US",
     "wof:created": 1617379664,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1729947617,
     "wof:involves": [
-      102527513, 
-      102533997, 
       1159285413, 
-      1729792505
+      1729792505, 
+      1377564285, 
+      102527513, 
+      102533997
     ],
-    "wof:lastmodified": 1617379664,
+    "wof:lastmodified": 1617380015,
     "wof:name": "UA724 (HNL-SFO)",
     "wof:parent_id": 1729792505,
     "wof:placetype": "event",

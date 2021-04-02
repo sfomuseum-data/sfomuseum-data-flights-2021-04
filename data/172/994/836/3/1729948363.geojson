@@ -2,10 +2,12 @@
   "id": 1729948363,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-02",
+    "date:cessation_upper": "2021-04-02",
     "date:inception_lower": "2021-04-01",
     "date:inception_upper": "2021-04-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-01",
+    "edtf:cessation": "2021-04-02T01:02:00Z",
+    "edtf:inception": "2021-04-01T23:29:00Z",
     "flysfo:actual_timestamp": 1617318960,
     "flysfo:airline": "F9",
     "flysfo:date": "2021-04-01",
@@ -48,6 +50,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "152064735"
+    },
     "wof:country": "US",
     "wof:created": 1617379855,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -84,7 +89,7 @@
       1159284401, 
       1729792641
     ],
-    "wof:lastmodified": 1617379855,
+    "wof:lastmodified": 1617380016,
     "wof:name": "F92790 (SFO-PHX)",
     "wof:parent_id": 1729792641,
     "wof:placetype": "event",

@@ -2,10 +2,12 @@
   "id": 1729947169,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-01",
+    "date:cessation_upper": "2021-04-01",
     "date:inception_lower": "2021-04-01",
     "date:inception_upper": "2021-04-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-01",
+    "edtf:cessation": "2021-04-01T17:37:39Z",
+    "edtf:inception": "2021-04-01T12:10:00Z",
     "flysfo:actual_timestamp": 1617299580,
     "flysfo:airline": "B6",
     "flysfo:date": "2021-04-01",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +54,9 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "152013547"
+    },
     "wof:country": "US",
     "wof:created": 1617379534,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -84,7 +93,7 @@
       1159284583, 
       1729792439
     ],
-    "wof:lastmodified": 1617379534,
+    "wof:lastmodified": 1617380013,
     "wof:name": "B615 (JFK-SFO)",
     "wof:parent_id": 1729792439,
     "wof:placetype": "event",

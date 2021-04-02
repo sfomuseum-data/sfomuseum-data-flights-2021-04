@@ -2,10 +2,12 @@
   "id": 1729947241,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-02",
+    "date:cessation_upper": "2021-04-02",
     "date:inception_lower": "2021-04-01",
     "date:inception_upper": "2021-04-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-01",
+    "edtf:cessation": "2021-04-02T00:33:42Z",
+    "edtf:inception": "2021-04-01T13:22:00Z",
     "flysfo:actual_timestamp": 1617324660,
     "flysfo:airline": "SK",
     "flysfo:date": "2021-04-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 46.622809000000004,
     "geom:longitude": -54.860681,
     "iata:airline": "SK",
+    "icao:aircraft": "A359",
     "icao:airline": "SAS",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1159285129,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102544207,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +56,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "152008422"
+    },
     "wof:country": "US",
     "wof:created": 1617379555,
     "wof:geomhash": "5ce04c0590c166d926aa7a8325b74dd4",
@@ -82,9 +93,10 @@
       102527513, 
       102544207, 
       1159285129, 
-      1729792671
+      1729792671, 
+      1377564293
     ],
-    "wof:lastmodified": 1617379555,
+    "wof:lastmodified": 1617380014,
     "wof:name": "SK935 (CPH-SFO)",
     "wof:parent_id": 1729792671,
     "wof:placetype": "event",

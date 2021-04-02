@@ -2,10 +2,12 @@
   "id": 1729948555,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-02",
+    "date:cessation_upper": "2021-04-02",
     "date:inception_lower": "2021-04-01",
     "date:inception_upper": "2021-04-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-01",
+    "edtf:cessation": "2021-04-02T01:07:23Z",
+    "edtf:inception": "2021-04-01T23:57:00Z",
     "flysfo:actual_timestamp": 1617320340,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-04-01",
@@ -48,6 +50,9 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "152064932"
+    },
     "wof:country": "US",
     "wof:created": 1617379908,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -84,7 +89,7 @@
       1159285591, 
       1729792445
     ],
-    "wof:lastmodified": 1617379908,
+    "wof:lastmodified": 1617380016,
     "wof:name": "WN1435 (SFO-SAN)",
     "wof:parent_id": 1729792445,
     "wof:placetype": "event",

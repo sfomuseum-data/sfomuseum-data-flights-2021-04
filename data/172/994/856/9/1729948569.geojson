@@ -2,10 +2,12 @@
   "id": 1729948569,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-01",
+    "date:cessation_upper": "2021-04-01",
     "date:inception_lower": "2021-04-01",
     "date:inception_upper": "2021-04-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-01",
+    "edtf:cessation": "2021-04-01T22:27:30Z",
+    "edtf:inception": "2021-04-01T20:58:00Z",
     "flysfo:actual_timestamp": 1617310320,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-04-01",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +54,9 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "152053620"
+    },
     "wof:country": "US",
     "wof:created": 1617379912,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -84,7 +93,7 @@
       1159285591, 
       1729792445
     ],
-    "wof:lastmodified": 1617379912,
+    "wof:lastmodified": 1617380016,
     "wof:name": "WN207 (SFO-PHX)",
     "wof:parent_id": 1729792445,
     "wof:placetype": "event",
