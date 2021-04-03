@@ -2,10 +2,12 @@
   "id": 1729952015,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-02",
+    "date:cessation_upper": "2021-04-02",
     "date:inception_lower": "2021-04-02",
     "date:inception_upper": "2021-04-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-02",
+    "edtf:cessation": "2021-04-02T19:43:00Z",
+    "edtf:inception": "2021-04-02T16:35:00Z",
     "flysfo:actual_timestamp": 1617379620,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-04-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618774,
     "lbl:longitude": -122.384852,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N467UA",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "152106023",
+      "swim:gufi": "KO49487601"
+    },
     "wof:country": "US",
     "wof:created": 1617466396,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -82,9 +96,10 @@
       102521851, 
       102527513, 
       1159285413, 
-      1729792559
+      1729792559, 
+      1159292085
     ],
-    "wof:lastmodified": 1617466396,
+    "wof:lastmodified": 1617466466,
     "wof:name": "UA281 (SFO-AUS)",
     "wof:parent_id": 1729792559,
     "wof:placetype": "event",
