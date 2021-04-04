@@ -2,10 +2,12 @@
   "id": 1729955127,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-03",
+    "date:cessation_upper": "2021-04-03",
     "date:inception_lower": "2021-04-03",
     "date:inception_upper": "2021-04-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-03",
+    "edtf:cessation": "2021-04-03T15:01:46Z",
+    "edtf:inception": "2021-04-03T14:07:00Z",
     "flysfo:actual_timestamp": 1617458280,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-04-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.610999204937734,
     "lbl:longitude": -122.3855542651668,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N226WN",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,9 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "152169510"
+    },
     "wof:country": "US",
     "wof:created": 1617552613,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1729955127,
     "wof:involves": [
-      102533795, 
       102527513, 
       1159285591, 
-      1729792457
+      1729792457, 
+      1159289869, 
+      102533795
     ],
-    "wof:lastmodified": 1617552613,
+    "wof:lastmodified": 1617552708,
     "wof:name": "WN3060 (SFO-LAX)",
     "wof:parent_id": 1729792457,
     "wof:placetype": "event",

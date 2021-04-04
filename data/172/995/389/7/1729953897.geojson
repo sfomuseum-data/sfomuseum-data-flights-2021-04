@@ -2,10 +2,12 @@
   "id": 1729953897,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-03",
+    "date:cessation_upper": "2021-04-03",
     "date:inception_lower": "2021-04-03",
     "date:inception_upper": "2021-04-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-03",
+    "edtf:cessation": "2021-04-03T20:43:15Z",
+    "edtf:inception": "2021-04-03T05:05:50Z",
     "flysfo:actual_timestamp": 1617490800,
     "flysfo:airline": "EK",
     "flysfo:date": "2021-04-03",
@@ -34,7 +36,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "152153418"
+    },
     "wof:country": "US",
     "wof:created": 1617552313,
     "wof:geomhash": "8eef79dee45c47eff2935879475b5fae",
@@ -46,7 +54,7 @@
       1159284333, 
       -1
     ],
-    "wof:lastmodified": 1617552313,
+    "wof:lastmodified": 1617552706,
     "wof:name": "EK225 (DXB-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
