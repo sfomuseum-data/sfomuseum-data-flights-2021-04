@@ -2,10 +2,12 @@
   "id": 1729958579,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-04",
+    "date:cessation_upper": "2021-04-04",
     "date:inception_lower": "2021-04-04",
     "date:inception_upper": "2021-04-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-04",
+    "edtf:cessation": "2021-04-04T20:24:00Z",
+    "edtf:inception": "2021-04-04T17:26:00Z",
     "flysfo:actual_timestamp": 1617577200,
     "flysfo:airline": "B6",
     "flysfo:date": "2021-04-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.9120825,
     "geom:longitude": -110.006986,
     "iata:airline": "B6",
+    "icao:aircraft": "A320",
     "icao:airline": "JBU",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102521851,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N508JL",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "152252325"
+    },
     "wof:country": "US",
     "wof:created": 1617639120,
     "wof:geomhash": "f1e29c4a83094711ef061292cfad3358",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1729958579,
     "wof:involves": [
+      1159292085, 
       102521851, 
       102527513, 
       1159284583, 
       1729792641
     ],
-    "wof:lastmodified": 1617639120,
+    "wof:lastmodified": 1617639273,
     "wof:name": "B61578 (SFO-AUS)",
     "wof:parent_id": 1729792641,
     "wof:placetype": "event",
