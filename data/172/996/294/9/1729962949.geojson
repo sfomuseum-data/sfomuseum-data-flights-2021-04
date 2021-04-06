@@ -2,10 +2,12 @@
   "id": 1729962949,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-05",
+    "date:cessation_upper": "2021-04-05",
     "date:inception_lower": "2021-04-05",
     "date:inception_upper": "2021-04-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-05",
+    "edtf:cessation": "2021-04-05T21:05:00Z",
+    "edtf:inception": "2021-04-05T19:43:00Z",
     "flysfo:actual_timestamp": 1617663600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-04-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.522456,
     "geom:longitude": -117.3704395,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102529435,
     "sfomuseum:departure_id": 102527513,
@@ -34,19 +38,28 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "152341612",
+      "swim:gufi": "KO51820200"
+    },
     "wof:country": "US",
     "wof:created": 1617725573,
     "wof:geomhash": "aececf2287744493115a1cd2999bcd1e",
     "wof:hierarchy": [],
     "wof:id": 1729962949,
     "wof:involves": [
+      1159289407, 
       102529435, 
       102527513, 
-      1159285413, 
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1617725573,
+    "wof:lastmodified": 1617725642,
     "wof:name": "UA2727 (SFO-GYR)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

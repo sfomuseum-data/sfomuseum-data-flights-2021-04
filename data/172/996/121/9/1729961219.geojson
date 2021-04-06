@@ -2,10 +2,12 @@
   "id": 1729961219,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-05",
+    "date:cessation_upper": "2021-04-05",
     "date:inception_lower": "2021-04-05",
     "date:inception_upper": "2021-04-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-05",
+    "edtf:cessation": "2021-04-05T14:25:44-07:00",
+    "edtf:inception": "2021-04-05T23:40:00Z",
     "flysfo:actual_timestamp": 1617683340,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-04-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.627254,
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
+    "icao:aircraft": "A321",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526927,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N342DN",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,10 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "152334437",
+      "swim:gufi": "KT79261200"
+    },
     "wof:country": "US",
     "wof:created": 1617725108,
     "wof:geomhash": "ae92617dd2aca2afdb0c9096232ff0bb",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1729961219,
     "wof:involves": [
+      1729792469, 
+      1159289411, 
       102527513, 
       102526927, 
-      1159284261, 
-      1729792469
+      1159284261
     ],
-    "wof:lastmodified": 1617725108,
+    "wof:lastmodified": 1617725644,
     "wof:name": "DL717 (ATL-SFO)",
     "wof:parent_id": 1729792469,
     "wof:placetype": "event",
