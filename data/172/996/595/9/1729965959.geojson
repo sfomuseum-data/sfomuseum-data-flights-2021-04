@@ -2,10 +2,12 @@
   "id": 1729965959,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-06",
+    "date:cessation_upper": "2021-04-06",
     "date:inception_lower": "2021-04-06",
     "date:inception_upper": "2021-04-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-06",
+    "edtf:cessation": "2021-04-06T19:22:00Z",
+    "edtf:inception": "2021-04-06T04:27:10-07:00",
     "flysfo:actual_timestamp": 1617733200,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-04-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.907347,
     "geom:longitude": -120.3621325,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61129913913649,
     "lbl:longitude": -122.38534520472582,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102532771,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N7843A",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,9 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "152384727"
+    },
     "wof:country": "US",
     "wof:created": 1617811799,
     "wof:geomhash": "5b5841a3ebf3c57d9843115edfb8ee6b",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1729965959,
     "wof:involves": [
+      1159289869, 
       102532771, 
       102527513, 
       1159285591, 
       1729792455
     ],
-    "wof:lastmodified": 1617811799,
+    "wof:lastmodified": 1617811894,
     "wof:name": "WN1024 (SFO-BUR)",
     "wof:parent_id": 1729792455,
     "wof:placetype": "event",
