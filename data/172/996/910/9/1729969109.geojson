@@ -2,10 +2,12 @@
   "id": 1729969109,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-07",
+    "date:cessation_upper": "2021-04-07",
     "date:inception_lower": "2021-04-07",
     "date:inception_upper": "2021-04-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-07",
+    "edtf:cessation": "2021-04-07T21:23:00Z",
+    "edtf:inception": "2021-04-07T16:15:00Z",
     "flysfo:actual_timestamp": 1617836400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-04-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +56,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "152445484",
+      "swim:gufi": "KO49942400"
+    },
     "wof:country": "US",
     "wof:created": 1617898227,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1729969109,
     "wof:involves": [
-      102533997, 
       102527513, 
       1159285413, 
-      1729792535
+      1729792535, 
+      1377564285, 
+      102533997
     ],
-    "wof:lastmodified": 1617898227,
+    "wof:lastmodified": 1617898295,
     "wof:name": "UA1175 (SFO-HNL)",
     "wof:parent_id": 1729792535,
     "wof:placetype": "event",

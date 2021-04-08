@@ -2,10 +2,12 @@
   "id": 1729968589,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-08",
+    "date:cessation_upper": "2021-04-08",
     "date:inception_lower": "2021-04-07",
     "date:inception_upper": "2021-04-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-07",
+    "edtf:cessation": "2021-04-08T00:27:00Z",
+    "edtf:inception": "2021-04-07T22:48:00Z",
     "flysfo:actual_timestamp": 1617836400,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-04-07",
@@ -48,6 +50,9 @@
       1729792389, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "152478292"
+    },
     "wof:country": "US",
     "wof:created": 1617898095,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -84,7 +89,7 @@
       1159283813, 
       1729792409
     ],
-    "wof:lastmodified": 1617898095,
+    "wof:lastmodified": 1617898294,
     "wof:name": "AS357 (SFO-SEA)",
     "wof:parent_id": 1729792409,
     "wof:placetype": "event",

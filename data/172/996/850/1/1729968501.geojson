@@ -2,10 +2,12 @@
   "id": 1729968501,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-08",
+    "date:cessation_upper": "2021-04-08",
     "date:inception_lower": "2021-04-07",
     "date:inception_upper": "2021-04-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-07",
+    "edtf:cessation": "2021-04-08T03:53:32Z",
+    "edtf:inception": "2021-04-07T02:30:00Z",
     "flysfo:actual_timestamp": 1617848460,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-04-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +57,9 @@
       1729792389, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "152415525"
+    },
     "wof:country": "US",
     "wof:created": 1617898072,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1729968501,
     "wof:involves": [
+      1159289871, 
       102532251, 
       102527513, 
       1159283813, 
       1729792405
     ],
-    "wof:lastmodified": 1617898072,
+    "wof:lastmodified": 1617898294,
     "wof:name": "AS1459 (SFO-PDX)",
     "wof:parent_id": 1729792405,
     "wof:placetype": "event",
