@@ -2,10 +2,12 @@
   "id": 1729971967,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-08",
+    "date:cessation_upper": "2021-04-08",
     "date:inception_lower": "2021-04-08",
     "date:inception_upper": "2021-04-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-08",
+    "edtf:cessation": "2021-04-08T22:25:27Z",
+    "edtf:inception": "2021-04-08T21:49:00Z",
     "flysfo:actual_timestamp": 1617922800,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-04-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.1517615,
     "geom:longitude": -121.98042749999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102530559,
     "sfomuseum:departure_id": 102527513,
@@ -34,19 +38,28 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N655DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "152549513",
+      "swim:gufi": "KO75060500"
+    },
     "wof:country": "US",
     "wof:created": 1617984645,
     "wof:geomhash": "5cb31017412a00ced54cc35c2a74371e",
     "wof:hierarchy": [],
     "wof:id": 1729971967,
     "wof:involves": [
+      1159289939, 
       102530559, 
       102527513, 
-      1159284261, 
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1617984645,
+    "wof:lastmodified": 1617984832,
     "wof:name": "DL8846 (SFO-SMF)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
