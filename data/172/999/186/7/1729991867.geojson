@@ -2,10 +2,12 @@
   "id": 1729991867,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-14",
+    "date:cessation_upper": "2021-04-14",
     "date:inception_lower": "2021-04-14",
     "date:inception_upper": "2021-04-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-14",
+    "edtf:cessation": "2021-04-14T20:14:38Z",
+    "edtf:inception": "2021-04-14T19:08:00Z",
     "flysfo:actual_timestamp": 1618426800,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-04-14",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +54,9 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "152948143"
+    },
     "wof:country": "US",
     "wof:created": 1618503047,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -84,7 +93,7 @@
       1159285591, 
       1729792445
     ],
-    "wof:lastmodified": 1618503047,
+    "wof:lastmodified": 1618503132,
     "wof:name": "WN4889 (SFO-LAS)",
     "wof:parent_id": 1729792445,
     "wof:placetype": "event",

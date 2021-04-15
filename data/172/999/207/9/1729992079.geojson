@@ -2,10 +2,12 @@
   "id": 1729992079,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2021-04-14",
     "date:inception_upper": "2021-04-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-14",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2021-04-14T11:49:17-07:00",
     "flysfo:actual_timestamp": 1618441200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-04-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N470UA",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -79,12 +88,13 @@
     ],
     "wof:id": 1729992079,
     "wof:involves": [
-      102533269, 
       102527513, 
       1159285413, 
-      1729792499
+      1729792499, 
+      1159292085, 
+      102533269
     ],
-    "wof:lastmodified": 1618503101,
+    "wof:lastmodified": 1618503132,
     "wof:name": "UA733 (SFO-SEA)",
     "wof:parent_id": 1729792499,
     "wof:placetype": "event",

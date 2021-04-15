@@ -2,10 +2,12 @@
   "id": 1729991297,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-14",
+    "date:cessation_upper": "2021-04-14",
     "date:inception_lower": "2021-04-14",
     "date:inception_upper": "2021-04-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-14",
+    "edtf:cessation": "2021-04-14T22:00:00Z",
+    "edtf:inception": "2021-04-14T17:18:00Z",
     "flysfo:actual_timestamp": 1618419840,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-04-14",
@@ -34,6 +36,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +54,9 @@
       1729792389, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "152940456"
+    },
     "wof:country": "US",
     "wof:created": 1618502902,
     "wof:geomhash": "33c9625a4901edf29154e5ec4b308b8b",
@@ -84,7 +93,7 @@
       1159283813, 
       1729792401
     ],
-    "wof:lastmodified": 1618502902,
+    "wof:lastmodified": 1618503130,
     "wof:name": "AS1302 (SFO-MCO)",
     "wof:parent_id": 1729792401,
     "wof:placetype": "event",
