@@ -2,10 +2,12 @@
   "id": 1729993461,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-16",
+    "date:cessation_upper": "2021-04-16",
     "date:inception_lower": "2021-04-15",
     "date:inception_upper": "2021-04-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-15",
+    "edtf:cessation": "2021-04-15T23:41:02-07:00",
+    "edtf:inception": "2021-04-15T08:43:00Z",
     "flysfo:actual_timestamp": 1618492140,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-04-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621107,
     "lbl:longitude": -122.389874,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533997,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2332U",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "152982817",
+      "swim:gufi": "KO41903500"
+    },
     "wof:country": "US",
     "wof:created": 1618589192,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -82,9 +96,10 @@
       102527513, 
       102533997, 
       1159285413, 
-      1729792549
+      1729792549, 
+      1159289993
     ],
-    "wof:lastmodified": 1618589192,
+    "wof:lastmodified": 1618589576,
     "wof:name": "UA396 (HNL-SFO)",
     "wof:parent_id": 1729792549,
     "wof:placetype": "event",

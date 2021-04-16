@@ -2,10 +2,12 @@
   "id": 1729994689,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-16",
+    "date:cessation_upper": "2021-04-16",
     "date:inception_lower": "2021-04-15",
     "date:inception_upper": "2021-04-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-15",
+    "edtf:cessation": "2021-04-16T00:39:00Z",
+    "edtf:inception": "2021-04-15T09:58:02-07:00",
     "flysfo:actual_timestamp": 1618527600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-04-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,19 +38,28 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N2135U",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "153039802",
+      "swim:gufi": "KO70341500"
+    },
     "wof:country": "US",
     "wof:created": 1618589502,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
     "wof:hierarchy": [],
     "wof:id": 1729994689,
     "wof:involves": [
+      1159289993, 
       102533795, 
       102527513, 
-      1159285413, 
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1618589502,
+    "wof:lastmodified": 1618589578,
     "wof:name": "UA2739 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
