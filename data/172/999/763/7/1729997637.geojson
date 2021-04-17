@@ -2,10 +2,12 @@
   "id": 1729997637,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-16",
+    "date:cessation_upper": "2021-04-16",
     "date:inception_lower": "2021-04-16",
     "date:inception_upper": "2021-04-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-16",
+    "edtf:cessation": "2021-04-16T17:09:00Z",
+    "edtf:inception": "2021-04-16T01:45:11-07:00",
     "flysfo:actual_timestamp": 1618614000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-04-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618339,
     "lbl:longitude": -122.387219,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102526751,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N898UA",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "153080178",
+      "swim:gufi": "KO49081600"
+    },
     "wof:country": "US",
     "wof:created": 1618675993,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1729997637,
     "wof:involves": [
-      102526751, 
       102527513, 
       1159285413, 
-      1729792507
+      1729792507, 
+      1159289407, 
+      102526751
     ],
-    "wof:lastmodified": 1618675993,
+    "wof:lastmodified": 1618676031,
     "wof:name": "UA656 (SFO-PHX)",
     "wof:parent_id": 1729792507,
     "wof:placetype": "event",
