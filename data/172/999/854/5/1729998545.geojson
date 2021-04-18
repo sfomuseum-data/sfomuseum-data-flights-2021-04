@@ -2,10 +2,12 @@
   "id": 1729998545,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-17",
+    "date:cessation_upper": "2021-04-17",
     "date:inception_lower": "2021-04-17",
     "date:inception_upper": "2021-04-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-17",
+    "edtf:cessation": "2021-04-17T18:25:00Z",
+    "edtf:inception": "2021-04-17T16:17:00Z",
     "flysfo:actual_timestamp": 1618700400,
     "flysfo:airline": "F9",
     "flysfo:date": "2021-04-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "F9",
+    "icao:aircraft": "A320",
     "icao:airline": "FFT",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,19 +38,27 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "153155138",
+      "swim:gufi": "KD54640700"
+    },
     "wof:country": "US",
     "wof:created": 1618761901,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
     "wof:hierarchy": [],
     "wof:id": 1729998545,
     "wof:involves": [
+      1159292085, 
       102527513, 
       102531189, 
-      1159284401, 
-      -1
+      1159284401
     ],
-    "wof:lastmodified": 1618761901,
+    "wof:lastmodified": 1618762544,
     "wof:name": "F9663 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
