@@ -2,10 +2,12 @@
   "id": 1730001733,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-18",
+    "date:cessation_upper": "2021-04-18",
     "date:inception_lower": "2021-04-18",
     "date:inception_upper": "2021-04-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-18",
+    "edtf:cessation": "2021-04-18T12:30:00Z",
+    "edtf:inception": "2021-04-18T07:47:00Z",
     "flysfo:actual_timestamp": 1618786800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-04-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533997,
@@ -34,19 +38,25 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "153198675"
+    },
     "wof:country": "US",
     "wof:created": 1618848417,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
     "wof:hierarchy": [],
     "wof:id": 1730001733,
     "wof:involves": [
+      1377564285, 
       102527513, 
       102533997, 
-      1159285413, 
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1618848417,
+    "wof:lastmodified": 1618848836,
     "wof:name": "UA2734 (HNL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

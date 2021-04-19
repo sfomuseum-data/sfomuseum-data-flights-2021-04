@@ -2,10 +2,12 @@
   "id": 1730002679,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-18",
+    "date:cessation_upper": "2021-04-18",
     "date:inception_lower": "2021-04-18",
     "date:inception_upper": "2021-04-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-18",
+    "edtf:cessation": "2021-04-18T23:44:00Z",
+    "edtf:inception": "2021-04-18T22:41:00Z",
     "flysfo:actual_timestamp": 1618786800,
     "flysfo:airline": "F9",
     "flysfo:date": "2021-04-18",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +53,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "153247405"
+    },
     "wof:country": "US",
     "wof:created": 1618848655,
     "wof:geomhash": "ec8e91229a6790516c63cb7081c35777",
@@ -84,7 +92,7 @@
       1159284401, 
       1729792585
     ],
-    "wof:lastmodified": 1618848655,
+    "wof:lastmodified": 1618848837,
     "wof:name": "F92754 (SFO-ONT)",
     "wof:parent_id": 1729792585,
     "wof:placetype": "event",
