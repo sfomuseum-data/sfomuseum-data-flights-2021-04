@@ -2,10 +2,12 @@
   "id": 1730009445,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-04-21",
-    "date:inception_upper": "2021-04-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-21",
+    "date:cessation_lower": "2021-04-22",
+    "date:cessation_upper": "2021-04-22",
+    "date:inception_lower": "2021-04-22",
+    "date:inception_upper": "2021-04-22",
+    "edtf:cessation": "2021-04-22T04:56:16Z",
+    "edtf:inception": "2021-04-22T03:41:00Z",
     "flysfo:actual_timestamp": 1619067600,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-04-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N596AS",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,9 @@
       1729792389, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "153395940"
+    },
     "wof:country": "US",
     "wof:created": 1619107419,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1730009445,
     "wof:involves": [
+      1159289871, 
       102527513, 
       102532251, 
       1159283813, 
       1729792411
     ],
-    "wof:lastmodified": 1619107419,
+    "wof:lastmodified": 1619107921,
     "wof:name": "AS454 (PDX-SFO)",
     "wof:parent_id": 1729792411,
     "wof:placetype": "event",

@@ -2,10 +2,12 @@
   "id": 1730009973,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-22",
+    "date:cessation_upper": "2021-04-22",
     "date:inception_lower": "2021-04-21",
     "date:inception_upper": "2021-04-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-21",
+    "edtf:cessation": "2021-04-22T01:03:00Z",
+    "edtf:inception": "2021-04-21T20:27:00Z",
     "flysfo:actual_timestamp": 1619046000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-04-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.256470999999998,
     "geom:longitude": -139.40440999999998,
     "iata:airline": "UA",
+    "icao:aircraft": "B763",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532929,
@@ -48,6 +52,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "153437183",
+      "swim:gufi": "KO59883400"
+    },
     "wof:country": "US",
     "wof:created": 1619107558,
     "wof:geomhash": "e4ae4c60ed0a76df38dbcfaaa5dd6a55",
@@ -79,12 +87,13 @@
     ],
     "wof:id": 1730009973,
     "wof:involves": [
+      1159289965, 
       102527513, 
       102532929, 
       1159285413, 
       1729792531
     ],
-    "wof:lastmodified": 1619107558,
+    "wof:lastmodified": 1619107925,
     "wof:name": "UA1580 (OGG-SFO)",
     "wof:parent_id": 1729792531,
     "wof:placetype": "event",

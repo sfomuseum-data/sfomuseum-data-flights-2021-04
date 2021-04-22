@@ -2,10 +2,12 @@
   "id": 1730010491,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-22",
+    "date:cessation_upper": "2021-04-22",
     "date:inception_lower": "2021-04-21",
     "date:inception_upper": "2021-04-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-21",
+    "edtf:cessation": "2021-04-22T02:42:00Z",
+    "edtf:inception": "2021-04-21T21:46:00Z",
     "flysfo:actual_timestamp": 1619040660,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-04-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.990156,
     "geom:longitude": -96.6928465,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N481AS",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,9 @@
       1729792389, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "153448971"
+    },
     "wof:country": "US",
     "wof:created": 1619107692,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1730010491,
     "wof:involves": [
+      1729792399, 
+      1377564285, 
       102530741, 
       102527513, 
-      1159283813, 
-      1729792399
+      1159283813
     ],
-    "wof:lastmodified": 1619107692,
+    "wof:lastmodified": 1619107935,
     "wof:name": "AS1352 (SFO-BOS)",
     "wof:parent_id": 1729792399,
     "wof:placetype": "event",
