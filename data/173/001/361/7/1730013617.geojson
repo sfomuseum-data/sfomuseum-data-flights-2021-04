@@ -2,10 +2,12 @@
   "id": 1730013617,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-22",
+    "date:cessation_upper": "2021-04-22",
     "date:inception_lower": "2021-04-22",
     "date:inception_upper": "2021-04-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-22",
+    "edtf:cessation": "2021-04-22T20:43:41Z",
+    "edtf:inception": "2021-04-22T05:06:00Z",
     "flysfo:actual_timestamp": 1619132400,
     "flysfo:airline": "SQ",
     "flysfo:date": "2021-04-22",
@@ -34,6 +36,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +53,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "153468586"
+    },
     "wof:country": "US",
     "wof:created": 1619194339,
     "wof:geomhash": "998e7b0d931c2ad5e41dcc1541aaab60",
@@ -84,7 +92,7 @@
       1159285163, 
       1729792671
     ],
-    "wof:lastmodified": 1619194339,
+    "wof:lastmodified": 1619194457,
     "wof:name": "SQ33 (SFO-SIN)",
     "wof:parent_id": 1729792671,
     "wof:placetype": "event",
