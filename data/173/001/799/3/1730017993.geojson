@@ -2,10 +2,12 @@
   "id": 1730017993,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-24",
+    "date:cessation_upper": "2021-04-24",
     "date:inception_lower": "2021-04-24",
     "date:inception_upper": "2021-04-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-24",
+    "edtf:cessation": "2021-04-24T04:50:29-07:00",
+    "edtf:inception": "2021-04-24T13:09:00Z",
     "flysfo:actual_timestamp": 1619290380,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-04-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.0247425,
     "geom:longitude": -101.83923999999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533657,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N69830",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "153636002",
+      "swim:gufi": "KJ40061701"
+    },
     "wof:country": "US",
     "wof:created": 1619366797,
     "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1730017993,
     "wof:involves": [
+      1377564285, 
       102527513, 
       102533657, 
       1159285413, 
       1729792555
     ],
-    "wof:lastmodified": 1619366797,
+    "wof:lastmodified": 1619367180,
     "wof:name": "UA470 (MCO-SFO)",
     "wof:parent_id": 1729792555,
     "wof:placetype": "event",

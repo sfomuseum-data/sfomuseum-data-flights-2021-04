@@ -2,10 +2,12 @@
   "id": 1730019121,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-25",
+    "date:cessation_upper": "2021-04-25",
     "date:inception_lower": "2021-04-24",
     "date:inception_upper": "2021-04-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-24",
+    "edtf:cessation": "2021-04-25T03:25:00Z",
+    "edtf:inception": "2021-04-24T12:29:32-07:00",
     "flysfo:actual_timestamp": 1619316960,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-04-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +57,9 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO00501100"
+    },
     "wof:country": "US",
     "wof:created": 1619367090,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -79,12 +91,13 @@
     ],
     "wof:id": 1730019121,
     "wof:involves": [
+      1159289407, 
       102533795, 
       102527513, 
       1159285413, 
       1729792545
     ],
-    "wof:lastmodified": 1619367090,
+    "wof:lastmodified": 1619367187,
     "wof:name": "UA1200 (SFO-LAX)",
     "wof:parent_id": 1729792545,
     "wof:placetype": "event",
