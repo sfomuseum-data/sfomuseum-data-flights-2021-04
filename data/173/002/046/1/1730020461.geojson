@@ -2,10 +2,12 @@
   "id": 1730020461,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-04-25",
-    "date:inception_upper": "2021-04-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-25",
+    "date:cessation_lower": "2021-04-26",
+    "date:cessation_upper": "2021-04-26",
+    "date:inception_lower": "2021-04-26",
+    "date:inception_upper": "2021-04-26",
+    "edtf:cessation": "2021-04-26T02:27:00Z",
+    "edtf:inception": "2021-04-26T01:18:00Z",
     "flysfo:actual_timestamp": 1619404200,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-04-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61266515122482,
     "lbl:longitude": -122.38444006596885,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8729H",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -79,12 +88,13 @@
     ],
     "wof:id": 1730020461,
     "wof:involves": [
+      1729792445, 
+      1528104575, 
       102527513, 
       102528997, 
-      1159285591, 
-      1729792445
+      1159285591
     ],
-    "wof:lastmodified": 1619453213,
+    "wof:lastmodified": 1619453693,
     "wof:name": "WN1320 (SAN-SFO)",
     "wof:parent_id": 1729792445,
     "wof:placetype": "event",
