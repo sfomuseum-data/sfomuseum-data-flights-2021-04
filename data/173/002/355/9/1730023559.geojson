@@ -2,10 +2,12 @@
   "id": 1730023559,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-26",
+    "date:cessation_upper": "2021-04-26",
     "date:inception_lower": "2021-04-26",
     "date:inception_upper": "2021-04-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-26",
+    "edtf:cessation": "2021-04-26T02:49:08-07:00",
+    "edtf:inception": "2021-04-26T12:30:00Z",
     "flysfo:actual_timestamp": 1619478000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-04-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533631,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N492UA",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "153759514",
+      "swim:gufi": "KG32126200"
+    },
     "wof:country": "US",
     "wof:created": 1619539718,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1730023559,
     "wof:involves": [
+      1159292085, 
       102527513, 
       102533631, 
       1159285413, 
       1729792499
     ],
-    "wof:lastmodified": 1619539718,
+    "wof:lastmodified": 1619540089,
     "wof:name": "UA685 (ORD-SFO)",
     "wof:parent_id": 1729792499,
     "wof:placetype": "event",

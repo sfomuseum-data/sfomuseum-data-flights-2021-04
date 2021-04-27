@@ -2,10 +2,12 @@
   "id": 1730022901,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-26",
+    "date:cessation_upper": "2021-04-26",
     "date:inception_lower": "2021-04-26",
     "date:inception_upper": "2021-04-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-26",
+    "edtf:cessation": "2021-04-26T13:38:46-07:00",
+    "edtf:inception": "2021-04-26T21:17:00Z",
     "flysfo:actual_timestamp": 1619494980,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-04-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534365,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N710TW",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,10 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "153795170",
+      "swim:gufi": "KN72605200"
+    },
     "wof:country": "US",
     "wof:created": 1619539546,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1730022901,
     "wof:involves": [
+      1159289939, 
       102527513, 
       102534365, 
       1159284261, 
       1729792469
     ],
-    "wof:lastmodified": 1619539546,
+    "wof:lastmodified": 1619540083,
     "wof:name": "DL311 (JFK-SFO)",
     "wof:parent_id": 1729792469,
     "wof:placetype": "event",
