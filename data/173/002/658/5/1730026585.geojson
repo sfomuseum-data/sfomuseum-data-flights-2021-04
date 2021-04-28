@@ -2,10 +2,12 @@
   "id": 1730026585,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-28",
+    "date:cessation_upper": "2021-04-28",
     "date:inception_lower": "2021-04-27",
     "date:inception_upper": "2021-04-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-27",
+    "edtf:cessation": "2021-04-28T07:06:36Z",
+    "edtf:inception": "2021-04-27T20:40:00Z",
     "flysfo:actual_timestamp": 1619554320,
     "flysfo:airline": "CI",
     "flysfo:date": "2021-04-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 18.808995,
     "geom:longitude": -61.1854715,
     "iata:airline": "CI",
+    "icao:aircraft": "B744",
     "icao:airline": "CAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289915,
     "sfomuseum:airline_id": 1159284153,
     "sfomuseum:arrival_id": -1,
     "sfomuseum:departure_id": 102527513,
@@ -34,19 +38,27 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "B18711",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "153915028"
+    },
     "wof:country": "US",
     "wof:created": 1619626262,
     "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
     "wof:hierarchy": [],
     "wof:id": 1730026585,
     "wof:involves": [
-      -1, 
+      1159289915, 
       102527513, 
-      1159284153, 
-      -1
+      1159284153
     ],
-    "wof:lastmodified": 1619626262,
+    "wof:lastmodified": 1619626463,
     "wof:name": "CI5197 (SFO-NGO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

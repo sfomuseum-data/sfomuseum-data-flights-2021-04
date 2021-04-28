@@ -2,10 +2,12 @@
   "id": 1730025989,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-27",
+    "date:cessation_upper": "2021-04-27",
     "date:inception_lower": "2021-04-27",
     "date:inception_upper": "2021-04-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-27",
+    "edtf:cessation": "2021-04-27T02:50:23-07:00",
+    "edtf:inception": "2021-04-27T14:39:00Z",
     "flysfo:actual_timestamp": 1619564400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-04-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.4645545,
     "geom:longitude": -113.444008,
     "iata:airline": "UA",
+    "icao:aircraft": "B763",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530535,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N684UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "153831919",
+      "swim:gufi": "KA50360300"
+    },
     "wof:country": "US",
     "wof:created": 1619626078,
     "wof:geomhash": "e3c6a1a6f8d45a2660e783ca1e486101",
@@ -44,9 +58,9 @@
       102527513, 
       102530535, 
       1159285413, 
-      -1
+      1159289965
     ],
-    "wof:lastmodified": 1619626078,
+    "wof:lastmodified": 1619626460,
     "wof:name": "UA2722 (ROW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",

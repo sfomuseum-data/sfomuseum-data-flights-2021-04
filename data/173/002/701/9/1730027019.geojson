@@ -2,10 +2,12 @@
   "id": 1730027019,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-27",
+    "date:cessation_upper": "2021-04-27",
     "date:inception_lower": "2021-04-27",
     "date:inception_upper": "2021-04-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-27",
+    "edtf:cessation": "2021-04-27T21:35:00Z",
+    "edtf:inception": "2021-04-27T17:54:00Z",
     "flysfo:actual_timestamp": 1619564400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-04-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.524645999999997,
     "geom:longitude": -110.7258735,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102536579,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N76517",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,10 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "153846583",
+      "swim:gufi": "KO57231300"
+    },
     "wof:country": "US",
     "wof:created": 1619626386,
     "wof:geomhash": "01999c4327be8e36df88ffd5cda77111",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1730027019,
     "wof:involves": [
+      1159289871, 
       102536579, 
       102527513, 
       1159285413, 
       1729792653
     ],
-    "wof:lastmodified": 1619626386,
+    "wof:lastmodified": 1619626466,
     "wof:name": "UA1271 (SFO-MEX)",
     "wof:parent_id": 1729792653,
     "wof:placetype": "event",
