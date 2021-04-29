@@ -2,10 +2,12 @@
   "id": 1730028349,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-28",
+    "date:cessation_upper": "2021-04-28",
     "date:inception_lower": "2021-04-28",
     "date:inception_upper": "2021-04-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-28",
+    "edtf:cessation": "2021-04-28T10:51:05-07:00",
+    "edtf:inception": "2021-04-28T22:57:00Z",
     "flysfo:actual_timestamp": 1619657580,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-04-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620534,
     "lbl:longitude": -122.388506,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N485UA",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,10 @@
       1729792487, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "153937780",
+      "swim:gufi": "KD69660400"
+    },
     "wof:country": "US",
     "wof:created": 1619712445,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -79,12 +93,13 @@
     ],
     "wof:id": 1730028349,
     "wof:involves": [
+      1159292085, 
       102527513, 
       102531189, 
       1159285413, 
       1729792527
     ],
-    "wof:lastmodified": 1619712445,
+    "wof:lastmodified": 1619712944,
     "wof:name": "UA238 (DEN-SFO)",
     "wof:parent_id": 1729792527,
     "wof:placetype": "event",

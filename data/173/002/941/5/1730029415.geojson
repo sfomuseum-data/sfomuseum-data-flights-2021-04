@@ -2,10 +2,12 @@
   "id": 1730029415,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-28",
+    "date:cessation_upper": "2021-04-28",
     "date:inception_lower": "2021-04-28",
     "date:inception_upper": "2021-04-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-28",
+    "edtf:cessation": "2021-04-28T17:41:08Z",
+    "edtf:inception": "2021-04-28T01:33:38-07:00",
     "flysfo:actual_timestamp": 1619623560,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-04-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61164983025587,
     "lbl:longitude": -122.3851161496397,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N7744A",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,9 @@
       1729792435, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "153905631"
+    },
     "wof:country": "US",
     "wof:created": 1619712831,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1730029415,
     "wof:involves": [
-      102531189, 
       102527513, 
       1159285591, 
-      1729792453
+      1729792453, 
+      1159289869, 
+      102531189
     ],
-    "wof:lastmodified": 1619712831,
+    "wof:lastmodified": 1619712950,
     "wof:name": "WN4542 (SFO-DEN)",
     "wof:parent_id": 1729792453,
     "wof:placetype": "event",

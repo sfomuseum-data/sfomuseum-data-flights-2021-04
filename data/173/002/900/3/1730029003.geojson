@@ -2,10 +2,12 @@
   "id": 1730029003,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-28",
+    "date:cessation_upper": "2021-04-28",
     "date:inception_lower": "2021-04-28",
     "date:inception_upper": "2021-04-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-28",
+    "edtf:cessation": "2021-04-28T12:24:17Z",
+    "edtf:inception": "2021-04-28T02:38:00Z",
     "flysfo:actual_timestamp": 1619662200,
     "flysfo:airline": "BA",
     "flysfo:date": "2021-04-28",
@@ -48,6 +50,9 @@
       1729792579, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "153944873"
+    },
     "wof:country": "US",
     "wof:created": 1619712657,
     "wof:geomhash": "86f41e039827d60bcd1a72801f72cbc2",
@@ -84,7 +89,7 @@
       1159284021, 
       1729792597
     ],
-    "wof:lastmodified": 1619712657,
+    "wof:lastmodified": 1619712948,
     "wof:name": "BA286 (SFO-LHR)",
     "wof:parent_id": 1729792597,
     "wof:placetype": "event",
