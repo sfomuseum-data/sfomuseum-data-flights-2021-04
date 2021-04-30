@@ -2,10 +2,12 @@
   "id": 1730030357,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-04-29",
+    "date:cessation_upper": "2021-04-29",
     "date:inception_lower": "2021-04-29",
     "date:inception_upper": "2021-04-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-29",
+    "edtf:cessation": "2021-04-29T12:30:00Z",
+    "edtf:inception": "2021-04-29T09:22:00Z",
     "flysfo:actual_timestamp": 1619737200,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-04-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.231919500000004,
     "geom:longitude": -109.610733,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525799,
@@ -34,19 +38,27 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "153957117",
+      "swim:gufi": "KF26696500"
+    },
     "wof:country": "US",
     "wof:created": 1619798689,
     "wof:geomhash": "ecfc64ce72b903780fc129f985c12eef",
     "wof:hierarchy": [],
     "wof:id": 1730030357,
     "wof:involves": [
-      102527513, 
-      102525799, 
       1159284261, 
-      -1
+      1159289939, 
+      102527513, 
+      102525799
     ],
-    "wof:lastmodified": 1619798689,
+    "wof:lastmodified": 1619799343,
     "wof:name": "DL8847 (DAL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
