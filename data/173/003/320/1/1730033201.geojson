@@ -2,10 +2,12 @@
   "id": 1730033201,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-05-01",
+    "date:cessation_upper": "2021-05-01",
     "date:inception_lower": "2021-04-30",
     "date:inception_upper": "2021-04-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-04-30",
+    "edtf:cessation": "2021-05-01T05:00:00Z",
+    "edtf:inception": "2021-04-30T23:40:00Z",
     "flysfo:actual_timestamp": 1619845260,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-04-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.0247425,
     "geom:longitude": -101.83923999999999,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533657,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route", 
+      "swim-path", 
+      "swim-approach"
+    ],
+    "swim:tail_number": "N549AS",
     "wof:belongsto": [
       1729792387, 
       102527513, 
@@ -48,6 +58,9 @@
       1729792389, 
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "154093705"
+    },
     "wof:country": "US",
     "wof:created": 1619885088,
     "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
@@ -79,12 +92,13 @@
     ],
     "wof:id": 1730033201,
     "wof:involves": [
-      102527513, 
-      102533657, 
       1159283813, 
-      1729792405
+      1729792405, 
+      1159289871, 
+      102527513, 
+      102533657
     ],
-    "wof:lastmodified": 1619885088,
+    "wof:lastmodified": 1619885742,
     "wof:name": "AS1305 (MCO-SFO)",
     "wof:parent_id": 1729792405,
     "wof:placetype": "event",
