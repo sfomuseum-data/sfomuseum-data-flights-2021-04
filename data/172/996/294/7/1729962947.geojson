@@ -17,19 +17,19 @@
     "flysfo:scheduled_timestamp": 1617636600,
     "flysfo:timestamp": 1617663600,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,37.617990,-104.689858,38.773626",
+    "geom:latitude": 38.195808,
+    "geom:longitude": -113.5304005,
     "iata:airline": "UA",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
     "sfomuseum:airline_id": 1159285413,
-    "sfomuseum:arrival_id": -1,
+    "sfomuseum:arrival_id": 102526247,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210405-D-UAL-2580",
     "sfomuseum:flight_number": [
-      "UAL2580", 
+      "UAL2580",
       "UA2580"
     ],
     "sfomuseum:placetype": "flight",
@@ -37,16 +37,20 @@
     "wof:belongsto": [],
     "wof:country": "US",
     "wof:created": 1617725573,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
-    "wof:hierarchy": [],
+    "wof:geomhash": "8aed97a089883cbe179a22c2076f7bb1",
+    "wof:hierarchy": [
+      {
+        "event_id": 1729962947
+      }
+    ],
     "wof:id": 1729962947,
     "wof:involves": [
-      -1, 
-      102527513, 
-      1159285413, 
+      -1,
+      102527513,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1617725573,
+    "wof:lastmodified": 1652122056,
     "wof:name": "UA2580 (SFO-COS)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
@@ -55,10 +59,10 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    0, 
-    0, 
-    37.61799
+    -122.370943,
+    37.61799,
+    -104.689858,
+    38.773626
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-104.689858,38.773626]],"type":"MultiPoint"}
 }

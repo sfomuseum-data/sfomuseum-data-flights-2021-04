@@ -19,9 +19,9 @@
     "flysfo:scheduled_timestamp": 1619553600,
     "flysfo:timestamp": 1619556000,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,34.858398,136.804993,37.617990",
+    "geom:latitude": 36.238194,
+    "geom:longitude": 7.217025,
     "iata:airline": "CI",
     "icao:aircraft": "B744",
     "icao:airline": "CAL",
@@ -29,18 +29,18 @@
     "lbl:longitude": -122.370943,
     "sfomuseum:aircraft_id": 1159289915,
     "sfomuseum:airline_id": 1159284153,
-    "sfomuseum:arrival_id": -1,
+    "sfomuseum:arrival_id": 102541597,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210427-D-CAL-5197",
     "sfomuseum:flight_number": [
-      "CAL5197", 
+      "CAL5197",
       "CI5197"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "B18711",
@@ -50,15 +50,19 @@
     },
     "wof:country": "US",
     "wof:created": 1619626262,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
-    "wof:hierarchy": [],
+    "wof:geomhash": "777fb27c316d109a2b5ddc1800f77aea",
+    "wof:hierarchy": [
+      {
+        "event_id": 1730026585
+      }
+    ],
     "wof:id": 1730026585,
     "wof:involves": [
-      1159289915, 
-      102527513, 
+      1159289915,
+      102527513,
       1159284153
     ],
-    "wof:lastmodified": 1619626463,
+    "wof:lastmodified": 1652122055,
     "wof:name": "CI5197 (SFO-NGO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
@@ -67,10 +71,10 @@
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    0, 
-    0, 
+    -122.370943,
+    34.858398,
+    136.804993,
     37.61799
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[136.804993,34.858398]],"type":"MultiPoint"}
 }
