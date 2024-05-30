@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210404-D-UAL-2705",
     "sfomuseum:flight_number": [
-      "UAL2705", 
+      "UAL2705",
       "UA2705"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1617639203,
     "wof:geomhash": "dda5c67e1aac39b5fe10f27fb362ac64",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729958897
+      }
+    ],
     "wof:id": 1729958897,
     "wof:involves": [
-      102535777, 
-      102527513, 
-      1159285413, 
+      102535777,
+      102527513,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1617639203,
+    "wof:lastmodified": 1717033464,
     "wof:name": "UA2705 (SFO-GUM)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    13.483889, 
-    144.797222, 
+    -122.370943,
+    13.483889,
+    144.797222,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[144.797222,13.483889]],"type":"MultiPoint"}

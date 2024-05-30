@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102533631,
     "sfomuseum:flight_id": "20210403-A-UAL-2704",
     "sfomuseum:flight_number": [
-      "UAL2704", 
+      "UAL2704",
       "UA2704"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1617552341,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729954015
+      }
+    ],
     "wof:id": 1729954015,
     "wof:involves": [
-      102527513, 
-      102533631, 
-      1159285413, 
+      102527513,
+      102533631,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1617552341,
+    "wof:lastmodified": 1717033460,
     "wof:name": "UA2704 (ORD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -87.894364, 
+    -122.370943,
+    37.61799,
+    -87.894364,
     41.983038
   ],
   "geometry": {"coordinates":[[-87.894364,41.983038],[-122.370943,37.61799]],"type":"MultiPoint"}

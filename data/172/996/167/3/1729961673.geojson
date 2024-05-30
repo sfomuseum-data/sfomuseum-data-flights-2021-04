@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102533771,
     "sfomuseum:flight_id": "20210405-A-UAL-2581",
     "sfomuseum:flight_number": [
-      "UAL2581", 
+      "UAL2581",
       "UA2581"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1617725233,
     "wof:geomhash": "c888892536f476de40ea9a710a0261ab",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729961673
+      }
+    ],
     "wof:id": 1729961673,
     "wof:involves": [
-      102527513, 
-      102533771, 
-      1159285413, 
+      102527513,
+      102533771,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1617725233,
+    "wof:lastmodified": 1717033459,
     "wof:name": "UA2581 (RIV-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.896471, 
-    -117.254857, 
+    -122.370943,
+    33.896471,
+    -117.254857,
     37.61799
   ],
   "geometry": {"coordinates":[[-117.254857,33.896471],[-122.370943,37.61799]],"type":"MultiPoint"}

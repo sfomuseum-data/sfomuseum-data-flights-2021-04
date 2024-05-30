@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210402-D-ASA-3366",
     "sfomuseum:flight_number": [
-      "ASA3366", 
+      "ASA3366",
       "AS3366"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1617466165,
     "wof:geomhash": "5c4ab4afb4473393075e7e0145a9edb2",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729951385
+      }
+    ],
     "wof:id": 1729951385,
     "wof:involves": [
-      102527733, 
-      102527513, 
-      1159283813, 
+      102527733,
+      102527513,
+      1159283813,
       -1
     ],
-    "wof:lastmodified": 1617466165,
+    "wof:lastmodified": 1717033459,
     "wof:name": "AS3366 (SFO-BOI)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -116.224634, 
+    -122.370943,
+    37.61799,
+    -116.224634,
     43.564048
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-116.224634,43.564048]],"type":"MultiPoint"}

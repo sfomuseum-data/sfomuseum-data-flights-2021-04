@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102556703,
     "sfomuseum:flight_id": "20210412-A-BAW-287",
     "sfomuseum:flight_number": [
-      "BAW287", 
+      "BAW287",
       "BA287"
     ],
     "sfomuseum:placetype": "flight",
@@ -45,26 +45,33 @@
     "wof:country": "US",
     "wof:created": 1618329851,
     "wof:geomhash": "c7bf5337358552a3a60caed0c1e9ea63",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729984015
+      }
+    ],
     "wof:id": 1729984015,
     "wof:involves": [
-      1159284021, 
-      1159293215, 
-      102527513, 
+      1159284021,
+      1159293215,
+      102527513,
       102556703
     ],
-    "wof:lastmodified": 1618330439,
+    "wof:lastmodified": 1717033460,
     "wof:name": "BA287 (LHR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -0.450443, 
+    -122.370943,
+    37.61799,
+    -0.450443,
     51.470087
   ],
   "geometry": {"coordinates":[[-0.450443,51.470087],[-122.370943,37.61799]],"type":"MultiPoint"}

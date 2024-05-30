@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102533269,
     "sfomuseum:flight_id": "20210430-A-ASA-1252",
     "sfomuseum:flight_number": [
-      "ASA1252", 
+      "ASA1252",
       "AS1252"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -49,26 +49,33 @@
     "wof:country": "US",
     "wof:created": 1619885085,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1730033191
+      }
+    ],
     "wof:id": 1730033191,
     "wof:involves": [
-      1377564297, 
-      102527513, 
-      102533269, 
+      1377564297,
+      102527513,
+      102533269,
       1159283813
     ],
-    "wof:lastmodified": 1619885742,
+    "wof:lastmodified": 1717033462,
     "wof:name": "AS1252 (SEA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -122.304268, 
+    -122.370943,
+    37.61799,
+    -122.304268,
     47.441823
   ],
   "geometry": {"coordinates":[[-122.304268,47.441823],[-122.370943,37.61799]],"type":"MultiPoint"}

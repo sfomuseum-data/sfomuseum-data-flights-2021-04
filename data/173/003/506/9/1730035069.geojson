@@ -95,10 +95,13 @@
       1159289423,
       102556451
     ],
-    "wof:lastmodified": 1653096797,
+    "wof:lastmodified": 1717033460,
     "wof:name": "KE8026 (SFO-ICN)",
     "wof:parent_id": 1729792627,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []

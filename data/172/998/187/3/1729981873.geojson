@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210411-D-DAL-8879",
     "sfomuseum:flight_number": [
-      "DAL8879", 
+      "DAL8879",
       "DL8879"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-path", 
+      "swim-path",
       "swim-takeoff"
     ],
     "wof:belongsto": [],
@@ -49,26 +49,33 @@
     "wof:country": "US",
     "wof:created": 1618243861,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729981873
+      }
+    ],
     "wof:id": 1729981873,
     "wof:involves": [
-      102527513, 
-      1159284261, 
-      1159289939, 
+      102527513,
+      1159284261,
+      1159289939,
       102533795
     ],
-    "wof:lastmodified": 1618244086,
+    "wof:lastmodified": 1717033459,
     "wof:name": "DL8879 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.942593, 
-    -118.38951, 
+    -122.370943,
+    33.942593,
+    -118.38951,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-118.38951,33.942593]],"type":"MultiPoint"}

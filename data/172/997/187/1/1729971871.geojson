@@ -33,13 +33,13 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210408-D-ASA-9808",
     "sfomuseum:flight_number": [
-      "ASA9808", 
+      "ASA9808",
       "AS9808"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-path", 
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "N281AK",
@@ -47,26 +47,33 @@
     "wof:country": "US",
     "wof:created": 1617984620,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729971871
+      }
+    ],
     "wof:id": 1729971871,
     "wof:involves": [
-      1377564285, 
-      102533795, 
-      102527513, 
+      1377564285,
+      102533795,
+      102527513,
       1159283813
     ],
-    "wof:lastmodified": 1617984832,
+    "wof:lastmodified": 1717033459,
     "wof:name": "AS9808 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.942593, 
-    -118.38951, 
+    -122.370943,
+    33.942593,
+    -118.38951,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-118.38951,33.942593]],"type":"MultiPoint"}

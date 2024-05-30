@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210421-D-DAL-8880",
     "sfomuseum:flight_number": [
-      "DAL8880", 
+      "DAL8880",
       "DL8880"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "N692DL",
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1619107752,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1730010719
+      }
+    ],
     "wof:id": 1730010719,
     "wof:involves": [
-      1159289939, 
-      102534365, 
-      102527513, 
+      1159289939,
+      102534365,
+      102527513,
       1159284261
     ],
-    "wof:lastmodified": 1619107930,
+    "wof:lastmodified": 1717033459,
     "wof:name": "DL8880 (SFO-JFK)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -73.787845, 
+    -122.370943,
+    37.61799,
+    -73.787845,
     40.643286
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-73.787845,40.643286]],"type":"MultiPoint"}

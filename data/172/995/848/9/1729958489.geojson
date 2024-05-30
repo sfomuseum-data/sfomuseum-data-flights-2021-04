@@ -95,10 +95,13 @@
       102526751,
       102527513
     ],
-    "wof:lastmodified": 1653096769,
+    "wof:lastmodified": 1717033463,
     "wof:name": "F92790 (SFO-PHX)",
     "wof:parent_id": 1729792619,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210405-D-UAL-2727",
     "sfomuseum:flight_number": [
-      "UAL2727", 
+      "UAL2727",
       "UA2727"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "wof:belongsto": [],
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1617725573,
     "wof:geomhash": "aececf2287744493115a1cd2999bcd1e",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729962949
+      }
+    ],
     "wof:id": 1729962949,
     "wof:involves": [
-      1159289407, 
-      102529435, 
-      102527513, 
+      1159289407,
+      102529435,
+      102527513,
       1159285413
     ],
-    "wof:lastmodified": 1617725642,
+    "wof:lastmodified": 1717033460,
     "wof:name": "UA2727 (SFO-GYR)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.426922, 
-    -112.369936, 
+    -122.370943,
+    33.426922,
+    -112.369936,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-112.369936,33.426922]],"type":"MultiPoint"}

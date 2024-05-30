@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102536441,
     "sfomuseum:flight_id": "20210402-A-ASA-1280",
     "sfomuseum:flight_number": [
-      "ASA1280", 
+      "ASA1280",
       "AS1280"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1617465797,
     "wof:geomhash": "57b2b594ef41523ab9fe7c26d147f9bd",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729950037
+      }
+    ],
     "wof:id": 1729950037,
     "wof:involves": [
-      1159292085, 
-      102527513, 
-      102536441, 
+      1159292085,
+      102527513,
+      102536441,
       1159283813
     ],
-    "wof:lastmodified": 1617466467,
+    "wof:lastmodified": 1717033461,
     "wof:name": "AS1280 (SJD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    23.160962, 
-    -109.717461, 
+    -122.370943,
+    23.160962,
+    -109.717461,
     37.61799
   ],
   "geometry": {"coordinates":[[-109.717461,23.160962],[-122.370943,37.61799]],"type":"MultiPoint"}

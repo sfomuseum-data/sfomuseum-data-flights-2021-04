@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210406-D-UAL-1358",
     "sfomuseum:flight_number": [
-      "UAL1358", 
+      "UAL1358",
       "UA1358"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1617811829,
     "wof:geomhash": "b40be45e404b6672d17874a2b6d6d5a4",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729966073
+      }
+    ],
     "wof:id": 1729966073,
     "wof:involves": [
-      102530535, 
-      102527513, 
-      1159285413, 
+      102530535,
+      102527513,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1617811829,
+    "wof:lastmodified": 1717033461,
     "wof:name": "UA1358 (SFO-ROW)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    33.311119, 
-    -104.517073, 
+    -122.370943,
+    33.311119,
+    -104.517073,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-104.517073,33.311119]],"type":"MultiPoint"}

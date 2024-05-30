@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210425-D-DAL-8880",
     "sfomuseum:flight_number": [
-      "DAL8880", 
+      "DAL8880",
       "DL8880"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "N712TW",
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1619453486,
     "wof:geomhash": "85f13befc363c1b91d2a48be031a5d6a",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1730021475
+      }
+    ],
     "wof:id": 1730021475,
     "wof:involves": [
-      102527513, 
-      1159284261, 
-      1159289939, 
+      102527513,
+      1159284261,
+      1159289939,
       102530849
     ],
-    "wof:lastmodified": 1619453702,
+    "wof:lastmodified": 1717033459,
     "wof:name": "DL8880 (SFO-MKE)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -87.896339, 
+    -122.370943,
+    37.61799,
+    -87.896339,
     42.949572
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-87.896339,42.949572]],"type":"MultiPoint"}

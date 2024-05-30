@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102533243,
     "sfomuseum:flight_id": "20210430-A-UAL-2753",
     "sfomuseum:flight_number": [
-      "UAL2753", 
+      "UAL2753",
       "UA2753"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N448UA",
@@ -52,26 +52,33 @@
     "wof:country": "US",
     "wof:created": 1619885288,
     "wof:geomhash": "e5ae5d1ea61206da1f1e1104d6bc1bb7",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1730033941
+      }
+    ],
     "wof:id": 1730033941,
     "wof:involves": [
-      1159292085, 
-      102527513, 
-      102533243, 
+      1159292085,
+      102527513,
+      102533243,
       1159285413
     ],
-    "wof:lastmodified": 1619885744,
+    "wof:lastmodified": 1717033459,
     "wof:name": "UA2753 (TPA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    27.972892, 
-    -82.530928, 
+    -122.370943,
+    27.972892,
+    -82.530928,
     37.61799
   ],
   "geometry": {"coordinates":[[-82.530928,27.972892],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210414-D-DAL-8879",
     "sfomuseum:flight_number": [
-      "DAL8879", 
+      "DAL8879",
       "DL8879"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "wof:belongsto": [],
@@ -50,26 +50,33 @@
     "wof:country": "US",
     "wof:created": 1618502958,
     "wof:geomhash": "c97739d28e676f0ee62f6ec4585963c5",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729991521
+      }
+    ],
     "wof:id": 1729991521,
     "wof:involves": [
-      1159289939, 
-      102528187, 
-      102527513, 
+      1159289939,
+      102528187,
+      102527513,
       1159284261
     ],
-    "wof:lastmodified": 1618503131,
+    "wof:lastmodified": 1717033459,
     "wof:name": "DL8879 (SFO-CVG)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -84.657144, 
+    -122.370943,
+    37.61799,
+    -84.657144,
     39.054422
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-84.657144,39.054422]],"type":"MultiPoint"}

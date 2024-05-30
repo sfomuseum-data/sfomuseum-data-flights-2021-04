@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210404-D-UAL-2791",
     "sfomuseum:flight_number": [
-      "UAL2791", 
+      "UAL2791",
       "UA2791"
     ],
     "sfomuseum:placetype": "flight",
@@ -46,26 +46,33 @@
     "wof:country": "US",
     "wof:created": 1617639205,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729958905
+      }
+    ],
     "wof:id": 1729958905,
     "wof:involves": [
-      1159289993, 
-      102533631, 
-      102527513, 
+      1159289993,
+      102533631,
+      102527513,
       1159285413
     ],
-    "wof:lastmodified": 1617639275,
+    "wof:lastmodified": 1717033463,
     "wof:name": "UA2791 (SFO-ORD)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -87.894364, 
+    -122.370943,
+    37.61799,
+    -87.894364,
     41.983038
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-87.894364,41.983038]],"type":"MultiPoint"}

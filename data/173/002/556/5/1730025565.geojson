@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102531189,
     "sfomuseum:flight_id": "20210427-A-DAL-8841",
     "sfomuseum:flight_number": [
-      "DAL8841", 
+      "DAL8841",
       "DL8841"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N663DN",
@@ -52,26 +52,33 @@
     "wof:country": "US",
     "wof:created": 1619625900,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1730025565
+      }
+    ],
     "wof:id": 1730025565,
     "wof:involves": [
-      102527513, 
-      102531189, 
-      1159284261, 
+      102527513,
+      102531189,
+      1159284261,
       1159289939
     ],
-    "wof:lastmodified": 1619626456,
+    "wof:lastmodified": 1717033462,
     "wof:name": "DL8841 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -104.672219, 
+    -122.370943,
+    37.61799,
+    -104.672219,
     39.864939
   ],
   "geometry": {"coordinates":[[-104.672219,39.864939],[-122.370943,37.61799]],"type":"MultiPoint"}

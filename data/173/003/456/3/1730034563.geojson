@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210430-D-ASA-1278",
     "sfomuseum:flight_number": [
-      "ASA1278", 
+      "ASA1278",
       "AS1278"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1619885452,
     "wof:geomhash": "7babf6b9ba279da48525185e0724d212",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1730034563
+      }
+    ],
     "wof:id": 1730034563,
     "wof:involves": [
-      102536441, 
-      102527513, 
-      1159283813, 
+      102536441,
+      102527513,
+      1159283813,
       -1
     ],
-    "wof:lastmodified": 1619885452,
+    "wof:lastmodified": 1717033459,
     "wof:name": "AS1278 (SFO-SJD)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    23.160962, 
-    -109.717461, 
+    -122.370943,
+    23.160962,
+    -109.717461,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-109.717461,23.160962]],"type":"MultiPoint"}

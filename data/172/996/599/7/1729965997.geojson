@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210406-D-SWR-39",
     "sfomuseum:flight_number": [
-      "SWR39", 
+      "SWR39",
       "LX39"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1617811810,
     "wof:geomhash": "75c5706ba72cddd7f95f840531183522",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729965997
+      }
+    ],
     "wof:id": 1729965997,
     "wof:involves": [
-      102553957, 
-      102527513, 
-      1159286475, 
+      102553957,
+      102527513,
+      1159286475,
       -1
     ],
-    "wof:lastmodified": 1617811810,
+    "wof:lastmodified": 1717033462,
     "wof:name": "LX39 (SFO-ZRH)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    8.559692, 
+    -122.370943,
+    37.61799,
+    8.559692,
     47.455793
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[8.559692,47.455793]],"type":"MultiPoint"}

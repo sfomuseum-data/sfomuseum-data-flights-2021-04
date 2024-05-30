@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210413-D-DAL-8926",
     "sfomuseum:flight_number": [
-      "DAL8926", 
+      "DAL8926",
       "DL8926"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "N654DL",
@@ -52,26 +52,33 @@
     "wof:country": "US",
     "wof:created": 1618416562,
     "wof:geomhash": "e3775dcc82e10b2050a0f38d95bd1f16",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729988485
+      }
+    ],
     "wof:id": 1729988485,
     "wof:involves": [
-      1159289939, 
-      102531811, 
-      102527513, 
+      1159289939,
+      102531811,
+      102527513,
       1159284261
     ],
-    "wof:lastmodified": 1618416735,
+    "wof:lastmodified": 1717033464,
     "wof:name": "DL8926 (SFO-OKC)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    35.396691, 
-    -97.593893, 
+    -122.370943,
+    35.396691,
+    -97.593893,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-97.593893,35.396691]],"type":"MultiPoint"}

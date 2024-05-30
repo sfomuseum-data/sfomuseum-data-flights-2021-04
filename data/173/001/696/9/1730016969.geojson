@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102525799,
     "sfomuseum:flight_id": "20210424-A-AAL-9320",
     "sfomuseum:flight_number": [
-      "AAL9320", 
+      "AAL9320",
       "AA9320"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1619366511,
     "wof:geomhash": "ecfc64ce72b903780fc129f985c12eef",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1730016969
+      }
+    ],
     "wof:id": 1730016969,
     "wof:involves": [
-      102527513, 
-      102525799, 
-      1159283849, 
+      102527513,
+      102525799,
+      1159283849,
       -1
     ],
-    "wof:lastmodified": 1619366511,
+    "wof:lastmodified": 1717033463,
     "wof:name": "AA9320 (DAL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    32.845849, 
-    -96.850523, 
+    -122.370943,
+    32.845849,
+    -96.850523,
     37.61799
   ],
   "geometry": {"coordinates":[[-96.850523,32.845849],[-122.370943,37.61799]],"type":"MultiPoint"}

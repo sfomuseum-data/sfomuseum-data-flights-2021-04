@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210409-D-UAL-2744",
     "sfomuseum:flight_number": [
-      "UAL2744", 
+      "UAL2744",
       "UA2744"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1618071225,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729975759
+      }
+    ],
     "wof:id": 1729975759,
     "wof:involves": [
-      102533269, 
-      102527513, 
-      1159285413, 
+      102533269,
+      102527513,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1618071225,
+    "wof:lastmodified": 1717033461,
     "wof:name": "UA2744 (SFO-SEA)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -122.304268, 
+    -122.370943,
+    37.61799,
+    -122.304268,
     47.441823
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-122.304268,47.441823]],"type":"MultiPoint"}

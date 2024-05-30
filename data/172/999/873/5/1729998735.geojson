@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102531205,
     "sfomuseum:flight_id": "20210417-A-SWA-2205",
     "sfomuseum:flight_number": [
-      "SWA2205", 
+      "SWA2205",
       "WN2205"
     ],
     "sfomuseum:placetype": "flight",
@@ -46,26 +46,33 @@
     "wof:country": "US",
     "wof:created": 1618761951,
     "wof:geomhash": "bbd014edfd8455b7d9e062bec23e52e6",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729998735
+      }
+    ],
     "wof:id": 1729998735,
     "wof:involves": [
-      1159289869, 
-      102527513, 
-      102531205, 
+      1159289869,
+      102527513,
+      102531205,
       1159285591
     ],
-    "wof:lastmodified": 1618762545,
+    "wof:lastmodified": 1717033464,
     "wof:name": "WN2205 (MDW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -87.745903, 
+    -122.370943,
+    37.61799,
+    -87.745903,
     41.787532
   ],
   "geometry": {"coordinates":[[-87.745903,41.787532],[-122.370943,37.61799]],"type":"MultiPoint"}

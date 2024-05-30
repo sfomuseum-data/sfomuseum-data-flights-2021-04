@@ -33,14 +33,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210428-D-DAL-8926",
     "sfomuseum:flight_number": [
-      "DAL8926", 
+      "DAL8926",
       "DL8926"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "N663DN",
@@ -51,26 +51,33 @@
     "wof:country": "US",
     "wof:created": 1619712710,
     "wof:geomhash": "bbdc3c5edf2b2678c807f6144214d82c",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1730029079
+      }
+    ],
     "wof:id": 1730029079,
     "wof:involves": [
-      1159289939, 
-      102531131, 
-      102527513, 
+      1159289939,
+      102531131,
+      102527513,
       1159284261
     ],
-    "wof:lastmodified": 1619712949,
+    "wof:lastmodified": 1717033464,
     "wof:name": "DL8926 (SFO-MSP)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -93.200317, 
+    -122.370943,
+    37.61799,
+    -93.200317,
     44.883321
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-93.200317,44.883321]],"type":"MultiPoint"}

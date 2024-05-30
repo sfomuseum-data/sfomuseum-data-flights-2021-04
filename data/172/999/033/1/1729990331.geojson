@@ -33,7 +33,7 @@
     "sfomuseum:departure_id": 102550331,
     "sfomuseum:flight_id": "20210414-A-CES-7589",
     "sfomuseum:flight_number": [
-      "CES7589", 
+      "CES7589",
       "MU7589"
     ],
     "sfomuseum:placetype": "flight",
@@ -48,26 +48,33 @@
     "wof:country": "US",
     "wof:created": 1618502649,
     "wof:geomhash": "0a16624c451961804ad27ef012213244",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729990331
+      }
+    ],
     "wof:id": 1729990331,
     "wof:involves": [
-      1159289993, 
-      102527513, 
-      102550331, 
+      1159289993,
+      102527513,
+      102550331,
       1159284157
     ],
-    "wof:lastmodified": 1618503125,
+    "wof:lastmodified": 1717033458,
     "wof:name": "MU7589 (PVG-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    31.145312, 
-    121.799307, 
+    -122.370943,
+    31.145312,
+    121.799307,
     37.61799
   ],
   "geometry": {"coordinates":[[121.799307,31.145312],[-122.370943,37.61799]],"type":"MultiPoint"}

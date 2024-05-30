@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210404-D-UAL-1368",
     "sfomuseum:flight_number": [
-      "UAL1368", 
+      "UAL1368",
       "UA1368"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1617639189,
     "wof:geomhash": "5815a5b1ad78885fe3ae36c1daab138f",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729958847
+      }
+    ],
     "wof:id": 1729958847,
     "wof:involves": [
-      102531997, 
-      102527513, 
-      1159285413, 
+      102531997,
+      102527513,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1617639189,
+    "wof:lastmodified": 1717033464,
     "wof:name": "UA1368 (SFO-ACV)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -124.10802, 
-    37.61799, 
-    -122.370943, 
+    -124.10802,
+    37.61799,
+    -122.370943,
     40.971689
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-124.10802,40.971689]],"type":"MultiPoint"}

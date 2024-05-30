@@ -29,7 +29,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210413-D-UAL-1396",
     "sfomuseum:flight_number": [
-      "UAL1396", 
+      "UAL1396",
       "UA1396"
     ],
     "sfomuseum:placetype": "flight",
@@ -38,26 +38,33 @@
     "wof:country": "US",
     "wof:created": 1618416663,
     "wof:geomhash": "6716e4c7ca0e3c1891c385118d042906",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729988885
+      }
+    ],
     "wof:id": 1729988885,
     "wof:involves": [
-      102527853, 
-      102527513, 
-      1159285413, 
+      102527853,
+      102527513,
+      1159285413,
       -1
     ],
-    "wof:lastmodified": 1618416663,
+    "wof:lastmodified": 1717033464,
     "wof:name": "UA1396 (SFO-TUS)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    32.119362, 
-    -110.946818, 
+    -122.370943,
+    32.119362,
+    -110.946818,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-110.946818,32.119362]],"type":"MultiPoint"}

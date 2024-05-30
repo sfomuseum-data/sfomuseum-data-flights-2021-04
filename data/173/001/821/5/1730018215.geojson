@@ -34,7 +34,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20210424-D-AAR-6615",
     "sfomuseum:flight_number": [
-      "AAR6615", 
+      "AAR6615",
       "OZ6615"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +43,34 @@
     "wof:country": "US",
     "wof:created": 1619366854,
     "wof:geomhash": "76fab8ba90cc172f777e745d124625d2",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1730018215
+      }
+    ],
     "wof:id": 1730018215,
     "wof:involves": [
-      102556451, 
-      102527513, 
-      1159283917, 
-      -1, 
+      102556451,
+      102527513,
+      1159283917,
+      -1,
       1159285413
     ],
-    "wof:lastmodified": 1619366854,
+    "wof:lastmodified": 1717033464,
     "wof:name": "OZ6615 (SFO-ICN)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-04",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
   "bbox": [
-    -122.370943, 
-    37.453966, 
-    126.661632, 
+    -122.370943,
+    37.453966,
+    126.661632,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[126.661632,37.453966]],"type":"MultiPoint"}
